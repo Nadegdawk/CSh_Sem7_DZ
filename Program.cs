@@ -27,9 +27,9 @@ void Task47()
 {
 	Console.WriteLine("Array of real numbers MxN");
 	int m = ReadInt("M");
-    int n = ReadInt("N");
+    	int n = ReadInt("N");
 	int[,] array = GetArray(m, n);
-    double[,] arrayD = GetRandomArrayDouble(array);
+    	double[,] arrayD = GetRandomArrayDouble(array);
 	PrintArrayDouble(arrayD);
 	Console.WriteLine();
 }
@@ -46,12 +46,12 @@ void Task50()
 {
 	Console.WriteLine("Array of real numbers MxN");
 	int m = ReadInt("M");
-    int n = ReadInt("N");
-    int x = ReadInt("row");
-    int y = ReadInt("column");
-    int[,] array = GetArray(m, n);
-    PrintArray2(array);
-    ElementArray(x, y, array);
+    	int n = ReadInt("N");
+    	int x = ReadInt("row");
+    	int y = ReadInt("column");
+    	int[,] array = GetArray(m, n);
+   	PrintArray2(array);
+   	ElementArray(x, y, array);
 }
 
 void Task52()
@@ -66,10 +66,10 @@ void Task52()
 {
 	Console.WriteLine("Array of real numbers MxN");
 	int m = ReadInt("M");
-    int n = ReadInt("N");
-    int[,] array = GetArray(m, n);
-    PrintArray2(array);
-    PrintArray(AverColumns(array));
+    	int n = ReadInt("N");
+    	int[,] array = GetArray(m, n);
+    	PrintArray2(array);
+    	PrintArray(AverColumns(array));
 	}
 
 
